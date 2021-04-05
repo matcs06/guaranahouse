@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.container{
+    padding-top: 10% ;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background:#CCCED2;
+    width: 60%;
+    height: 12rem;
+    margin: 2%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.pictitle{
+    margin-bottom: 8%; 
+    font-family: Open Sans;
+    font-weight: normal;
+}

@@ -1,0 +1,17 @@
+.inputcontainer{
+    margin: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    border-width: 0 0 2px 0;
+    width: 60%;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: Open Sans;
+    font-weight: lighter;
+}

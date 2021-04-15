@@ -1,12 +1,13 @@
 import styles from "./Button.module.css"
+import Link from "next/link"
 
 export default function MainPage (props:any){
     
-    console.log("props page: " + props.page)
-
     return(
         <div className={styles.buttoncontainer} onClick={props.onclick}>
-            <a className={styles.button} href={String(props.page)}>{props.title}</a>
+            <Link href={props.page}>
+               <a className={styles.button} href="">{props.title}</a>
+            </Link>
         </div>
     )
 }

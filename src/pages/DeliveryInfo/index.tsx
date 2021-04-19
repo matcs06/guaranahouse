@@ -5,7 +5,6 @@ import {AppContext} from "../../context/AppContext"
 import Button from "../../Components/Button"
 import Input from "../../Components/Input"
 
-import WhatsApp from "../../api/WhatsApp/WhatsApp"
 import Link from "next/link"
 
 export default function OrderAgain() {

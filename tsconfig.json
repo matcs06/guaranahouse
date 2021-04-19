@@ -21,8 +21,8 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "src/utils/writeOnTxt.js"  ],
+    "**/*.tsx",
+     "src/utils/writeOnTxt.js"  ],
   "exclude": [
     "node_modules"
   ]

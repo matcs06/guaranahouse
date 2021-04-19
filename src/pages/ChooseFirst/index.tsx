@@ -16,11 +16,6 @@ export default function ChooseFirst() {
   function handleSelection (cobertura1:string) {
     setCover(cobertura1)
   }
-
-  useEffect(()=>{
-    console.log("shared state: " + shared)
-    console.log(cover)
-  },[])
  
   return (
     <>

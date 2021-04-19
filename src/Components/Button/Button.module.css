@@ -16,6 +16,10 @@
 .button{
     font-family: "Open Sans" sans-serif;
     font-weight: bolder;
+    font-size: 18px;
     width: 100%;
     text-align: center;
+    background-color: #fff;
+    margin: 0;
+    border: none;
 }

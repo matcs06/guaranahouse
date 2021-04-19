@@ -3,7 +3,7 @@ import React, {createContext, useContext, useState} from "react"
 export const AppContext = createContext()
 
 export const AppProvider = ({children})=>{
-    const [shared, setShared] = useState({items:[], address:{}})
+    const [shared, setShared] = useState({items:[]})
     const [cover, setCover] = useState("")
 
 

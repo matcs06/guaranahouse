@@ -31,8 +31,6 @@ export default function OrderAgain() {
       }else{
         setPage("/OrderAgain")
       }
-
-      console.log(shared)
   }
   
   },[yesChecked, noChecked])

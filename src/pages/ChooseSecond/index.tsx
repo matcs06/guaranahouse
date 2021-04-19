@@ -29,11 +29,6 @@ export default function ChooseSecond(props) {
 
   }
 
-  useEffect(()=>{
-    console.log(shared)
-  },[shared])
-  
-
   return (
     <> 
     <Cart/>

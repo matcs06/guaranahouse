@@ -20,11 +20,12 @@ export default function SucessOrder() {
             </div>
 
             <div className={styles.textcontainer}>
-                <p className={styles.text}>Seu pedido foi realizado com sucesso e será entregue dentro de 15 minutos no endereço: Rua tal, número tal, bairro tal.</p>
+                <p className={styles.text}>Seu pedido foi realizado com sucesso e a confirmação deverá ser concluída pelo WhatsApp</p>
+                <p className={styles.text}> Você só precisa enviar a mensagem gerada automáticamente no seu WhatsApp para que possamos receber seu pedido</p>
                 <p className={styles.text}>Total do pedido: <strong>{value}</strong> R$</p>  
                 <p className={styles.text}>Muito Obrigado!!</p>
             </div>
-            <Button title="Voltar ao Início" page="MainPage"/>
+            <Button title="Voltar ao Início" page="MainPage" />
         </div>
     )
 }

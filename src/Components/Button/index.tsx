@@ -6,7 +6,7 @@ export default function MainPage (props:any){
     return(
         <div className={styles.buttoncontainer} onClick={props.onclick}>
             <Link href={props.page}>
-               <a className={styles.button} href="">{props.title}</a>
+               <button className={styles.button} type="submit" onClick={props.handleClick}>{props.title}</button>
             </Link>
         </div>
     )

@@ -61,7 +61,7 @@ export default function OrderAgain() {
 
         <p className={styles.info}>O pagamento é feito na entrega e pode ser por dinheiro ou transferência Pix.</p> 
 
-        <p className={styles.info}>Esse é o endereço caso você queira pegar no local:  <strong>Rua Barão, Número 77, Bairro Centro.</strong></p>  
+        <p className={styles.info}><strong>Você percisa permitir abrir o WhatsApp quando aparecer na sua tela para concluir o pedido</strong></p>  
 
         <p className={styles.info}>Total: <strong>{value} R$ (Com entrega inclusa) :) ;)</strong>  </p>  
         <Button title="Finalizar Pedido" page="SucessOrder" handleClick={handleClick}/>    

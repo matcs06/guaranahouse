@@ -1,30 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
-.container{
-    padding-top: 10% ;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+  padding-top: 10%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.box{
-    background:#CCCED2;
-    width: 60%;
-    height: 12rem;
-    margin: 2%;
+.box {
+  background: #ccced2;
+  width: 60%;
+  height: 12rem;
+  margin: 2%;
 
-    margin-top: 10%;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    cursor: pointer;
+  margin-top: 10%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
 }
-.pictitle{
-    margin-bottom: 8%; 
-    font-family: Open Sans;
-    font-weight: normal;
+.pictitle {
+  margin-bottom: 8%;
+  font-family: Open Sans;
+  font-weight: normal;
 }

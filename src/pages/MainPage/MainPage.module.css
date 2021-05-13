@@ -1,77 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Stalemate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Stalemate&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-.container{
-    padding: 0;
-    margin: 0;   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
+.container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
 }
 
-.title{
-    margin-top:20px;
-    margin-left: 30px;
-    font-size: 45px;
-    align-self: flex-start;
-    font-family: "Stalemate";
-    font-weight: lighter;
+.title {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 45px;
+  align-self: flex-start;
+  font-family: "Stalemate";
+  font-weight: lighter;
 }
 
-.card{
-    margin-top: 10%;
-    width: 80%;
-    height: 50%;
-    align-self: center;
-    background-color: #B1C5C5;
-    border-radius: 3px;
-    overflow: visible;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.card {
+  margin-top: 10%;
+  width: 80%;
+  height: 50%;
+  align-self: center;
+  background-color: #b1c5c5;
+  border-radius: 3px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.guarana{
-   margin-bottom: 5%; 
-   padding-bottom: 20px;
-   width: 390px;
-   height: 390px;
-}   
-
-.price{
-    margin-top: 10px;
-    align-self: flex-start;
-    margin-left: 10%;
-    font-weight: bolder;
-    font-size: 18px;
-    font-family: sans-serif;
-    color: #8B8B8B;
-    margin-bottom: 20px;
+.guarana {
+  margin-bottom: 5%;
+  padding-bottom: 20px;
+  width: 390px;
+  height: 390px;
 }
 
-.iniciarcontainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10%;
-    width: 80%;
-    height: 3em;
-    border-radius: 3px;
-    color: #2B2F36;
-    border: 3px solid #54B0F3;
-    padding: 0;
+.price {
+  margin-top: 10px;
+  align-self: flex-start;
+  margin-left: 10%;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #8b8b8b;
+  margin-bottom: 20px;
 }
 
-.iniciar{
-    font-family: "Open Sans" sans-serif;
-    font-weight: bolder;
-    width: 100%;
-    text-align: center;
+.iniciarcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+  width: 80%;
+  height: 3em;
+  border-radius: 3px;
+  color: #2b2f36;
+  border: 3px solid #54b0f3;
+  padding: 0;
 }
 
-.buttoncontainer{
-    margin-top: 10%;
+.iniciar {
+  font-family: "Open Sans" sans-serif;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
+}
+
+.buttoncontainer {
+  margin-top: 10%;
 }

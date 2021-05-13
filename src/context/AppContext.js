@@ -1,17 +1,14 @@
-import React, {createContext, useContext, useState} from "react"
+import React, { createContext, useContext, useState } from "react";
 
-export const AppContext = createContext()
+export const AppContext = createContext();
 
-export const AppProvider = ({children})=>{
-    const [shared, setShared] = useState({items:[]})
-    const [cover, setCover] = useState("")
+export const AppProvider = ({ children }) => {
+  const [shared, setShared] = useState({ items: [] });
+  const [cover, setCover] = useState("");
 
-
-    return(
-        <AppContext.Provider value={[shared, setShared, cover, setCover] } >
-            {children}
-        </AppContext.Provider>
-    )
-
-}
-
+  return (
+    <AppContext.Provider value={[shared, setShared, cover, setCover]}>
+      {children}
+    </AppContext.Provider>
+  );
+};

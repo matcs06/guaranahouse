@@ -10,8 +10,8 @@ export default function Input(props: any) {
       setterName(e.target.value);
     }
 
-    if (props.name == "number") {
-      setterNumber(e.target.value);
+    if (props.name == "reference") {
+      setterReference(e.target.value);
     }
 
     if (props.name == "address") {

@@ -41,7 +41,7 @@ export default function ChooseSecond(props) {
             <img src={amendoin} alt="amendoin" width={170} height={200} />
           </div>
         </Link>
-        <span className={style.pictitle}>Amendoin</span>
+        <span className={style.pictitle}>Amendoim</span>
       </main>
     </>
   );
